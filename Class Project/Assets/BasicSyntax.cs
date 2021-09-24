@@ -19,10 +19,4 @@ public class NewBehaviourScript : MonoBehaviour
 			Debug.Log ("I'm about to hit the ground!");
 		}
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
