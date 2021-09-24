@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         //this line is there to tell me the x position of my object
 
-		/"Hi there!
+		/*"Hi there!
 		* this is two lines!
  		* */
  		Debug.Log(transform.position.x);
