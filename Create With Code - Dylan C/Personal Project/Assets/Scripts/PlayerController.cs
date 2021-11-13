@@ -33,6 +33,11 @@ public class PlayerController : MonoBehaviour
         {
             isOnGround = true;
         }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Player has hit a Hurdle!");
+        }
     }
         
 }
